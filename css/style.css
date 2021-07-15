@@ -345,7 +345,7 @@ color: #FFFFFF;
   padding: 10px 30px;
   display: inline-block;
  /* /*margin-top: 50px;*/
-  margin-bottom: 50px;*/
+  margin-bottom: 50px;
 }
   
 }
@@ -443,7 +443,7 @@ height: 512px;
 
 .sec-4{
 
-  background-image: url("../images/img-4.png");
+  background:linear-gradient(90deg, rgba(0,0,0,0.0) 30%,rgba(0,0,0,1) 90% ), url("../images/img-4.png");
 
   height: 700px;
   width: 1366px;
