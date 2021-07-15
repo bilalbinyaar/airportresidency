@@ -8,7 +8,7 @@
 body{
   height: 100%;
   width: 100%;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -546,7 +546,6 @@ background-color : #D9A720 !important;
   width: 225px;
 
 background-color : #1B1E25 !important;
-font-family: Barlow;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
