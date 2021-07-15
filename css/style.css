@@ -22,6 +22,7 @@ nav{
  
   /*background-repeat: no-repeat center center scroll;*/
   background-size: cover;
+  background-attachment: fixed;
 
 
 
@@ -476,7 +477,7 @@ color: #FFFFFF;
 
 .sec-4-1{
 
-  padding-top: 125px;
+  /* padding-top: 125px; */
 
 }
 
