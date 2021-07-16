@@ -29,7 +29,7 @@ nav{
 }
 
 #active_link{
-  color:  #6f5205 !important;
+  color:  #9e762c!important;
   font-weight: 600;
 
 }
@@ -39,7 +39,7 @@ nav{
     position: absolute;
     bottom: 0px;
     height: 2px;
-    background-color: #6f5205;
+    background-color: #9e762c;
     width: 100px;
     right: 550px;
 
@@ -51,7 +51,7 @@ nav{
 
 
 .title{
-  margin-top: 160px;
+  margin-top: 130px;
   /*margin-left: 40px;*/
   text-align: center;
 }
@@ -62,7 +62,8 @@ nav{
   font-size: 80px;
   line-height: 117px;
 /* identical to box height */
-color: #D9A720;
+color: #9e762c;
+font-variant: small-caps !important;
 /*position: relative;*/
 
 }
@@ -98,7 +99,7 @@ color: #D9A720;
 
 .fab{
  
-  color:  black;
+  color:  white;
 
 }
 
@@ -125,6 +126,27 @@ color: #D9A720;
 margin-top: 100px;
 
 }
+
+.sec-7 h4{
+  color: #FFFFFF;
+}
+
+.sec-7 p{
+  color: #FFFFFF;
+}
+
+.sec-8 h3{
+      font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 59px;
+    font-variant: small-caps;
+    color: #9e762c;
+        text-align: center;
+        margin-top: 150px;
+}
+
 
 
 .bar-icon{
@@ -189,7 +211,7 @@ border: 2px solid black;
 
 @media screen and (min-width: 601px) {
   .title  {
-    margin-top: 160x;
+    margin-top: 130x;
   }
 }
 
@@ -281,7 +303,7 @@ color: #FFFFFF;
 }
 
 .bt{
-  background: #FFC93E;
+  background: #9e762c;
   padding: 10px 30px;
   display: inline-block;
   margin-top: 15px;
@@ -301,7 +323,7 @@ color: #FFFFFF;
 
 @media screen and (min-width: 601px) {
   .bt{
-  background: #FFC93E;
+  background: #9e762c;
   padding: 10px 30px;
   display: inline-block;
   margin-top: 15px;
@@ -316,7 +338,7 @@ color: #FFFFFF;
 
 @media screen and (max-width: 601px) {
   .bt{
-  background: #FFC93E;
+  background: #9e762c;
   padding: 10px 30px;
   display: inline-block;
   margin-top: 100px;
@@ -332,7 +354,7 @@ color: #FFFFFF;
 
 @media only screen and (min-width: 768px) {
 .bt{
-  background: #FFC93E;
+  background: #9e762c;
   padding: 10px 30px;
   display: inline-block;
   margin-top: 15px;
@@ -342,7 +364,7 @@ color: #FFFFFF;
 
 @media only screen and (max-width: 768px) {
 .bt{
-  background: #FFC93E;
+  background: #9e762c;
   padding: 10px 30px;
   display: inline-block;
  /* /*margin-top: 50px;*/
@@ -365,7 +387,8 @@ color: #FFFFFF;
   font-size: 48px;
   line-height: 59px;
   /* identical to box height */
-  color: #D9A720; 
+  color: #9e762c; 
+  font-variant: small-caps !important;
 
 }
 
@@ -410,10 +433,11 @@ font-style: normal;
 font-weight: normal;
 font-size: 40px;
 line-height: 59px;
+font-variant: small-caps;
 /* identical to box height */
 
 
-color: #D9A720;
+color: #9e762c;
 
 }
 
@@ -461,8 +485,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 40;
 line-height: 51px;
+font-variant: small-caps;
 
-color: #D9A720;
+color: #9e762c;
 
 }
 
@@ -488,10 +513,11 @@ font-style: normal;
 font-weight: 500;
 font-size: 30px;
 line-height: 38px;
+font-variant: small-caps;
 
 padding-bottom: 30px;
 
-color: #D9A720;
+color: #9e762c;
 
 }
 
@@ -528,10 +554,10 @@ color: #454545;
 
 
 .N-form input, textarea, aria-label {
-background-color : #D9A720 !important;
+background-color : #9e762c !important;
 }
 .form-control{
-  background-color:  #D9A720 !important;
+  background-color:  #9e762c !important;
   border-radius: 0px !important;
     border: 1px solid black !important;
     padding: 25px !important;
@@ -562,7 +588,7 @@ color: #FFFFFF !important;
 
 
 footer{
-  background-color:#D9A720; ;
+  background-color:#9e762c; ;
 
   padding: 50px 0;
 }
@@ -675,7 +701,7 @@ footer{
 }
 
 .amenities h1 {
-    color: #E1B847;
+    color: #9e762c;
     font-size: 2em;
     font-family: "Montserrat", sans-serif;
     position: absolute;
@@ -690,7 +716,7 @@ footer{
 }
 
 section{
-  margin-top: 150px;
+  margin-top: 30px;
 
 
 }
@@ -746,7 +772,7 @@ section{
 }
 
 amenities h1 {
-    color: #E1B847;
+    color: #9e762c;
     font-size: 2em;
     font-family: "Montserrat", sans-serif;
     position: absolute;
@@ -770,7 +796,7 @@ amenities h1 {
 }
 
 .amenities h1 {
-    color: #E1B847;
+    color: #9e762c;
     font-size: 2em;
     font-family: "Montserrat", sans-serif;
     position: absolute;
