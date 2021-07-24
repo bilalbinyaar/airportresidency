@@ -652,10 +652,12 @@ footer{
 .amenities .amenity:nth-child(1) { background-image: url(../images/amenity-1.png); }
 .amenities .amenity:nth-child(2) { background-image: url(../images/amenity-2.jpg); }
 .amenities .amenity:nth-child(3) { background-image: url(../images/amenity-3.png); }
-.amenities .amenity:nth-child(4) { background-image: url(../images/amenity-4.png); }
+.amenities .amenity:nth-child(4) { background-image: url(../images/amenity-4.jpg); }
 .amenities .amenity:nth-child(5) { background-image: url(../images/amenity-5.png); }
 .amenities .amenity:nth-child(6) { background-image: url(../images/amenity-6.jpg); }
 .amenities .amenity:nth-child(7) { background-image: url(../images/amenity-7.jpg); }
+.amenities .amenity:nth-child(8) { background-image: url(../images/amenity-8.jpg); }
+.amenities .amenity:nth-child(9) { background-image: url(../images/amenity-9.jpg); }
 
 .amenities .amenity:hover {
     flex: 3;
