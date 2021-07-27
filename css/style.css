@@ -825,3 +825,14 @@ amenities h1 {
     font-size: 25px;
   }
 }
+
+
+.contact-link {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: white;
+}
