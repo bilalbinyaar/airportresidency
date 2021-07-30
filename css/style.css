@@ -134,12 +134,12 @@ margin-top: 100px;
 .sec-7 p{
   color: #FFFFFF;
 }
-
+/* 
 .sec-8{
 
 padding: 0px !important;
 
-}
+} */
 
 .sec-8 h3{
       font-family: Montserrat;
@@ -293,9 +293,7 @@ border-radius: 50%;
 height: 50px;
 width: 50px;
 border: 2px solid black;
-/* margin-top: -220px; */
-/* margin-left: 20px;
-margin-right:5px ; */
+
 
 }
 }
