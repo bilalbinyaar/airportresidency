@@ -468,6 +468,7 @@ color: #9e762c;
   color: #454545;
 
 }
+.carousel-indicators li { visibility: hidden; }
 
 .carousel-0{
 height: 512px;
@@ -859,12 +860,3 @@ amenities h1 {
   color: white;
 }
 
-.about{
-  position: absolute;
-    content: "";
-    width: 30px !important;
-    height: 6px;
-    background-color: #e44c2a;
-    top: 17px;
-    margin-left: 172px !important
-}
