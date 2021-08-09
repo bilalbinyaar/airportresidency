@@ -13,17 +13,18 @@ body{
 
 
 nav{
-  margin-bottom:50px;
+  /* margin-bottom:50px; */
+  position: absolute;
 }
 
 .sec-1{
-  background:linear-gradient(90deg, rgba(0,0,0,0.64),rgba(0,0,0,0.64)), url("../images/back-1.png");
-  height: 45em !important; 
+  /* background:linear-gradient(90deg, rgba(0,0,0,0.64),rgba(0,0,0,0.64)), url("../images/back-1.png");
+  height: 45em !important;  */
  
   /*background-repeat: no-repeat center center scroll;*/
-  background-size: cover;
+  /* background-size: cover;
   background-attachment: fixed;
-
+ */
 
 
 }
@@ -46,12 +47,15 @@ nav{
 
 }
 
+.slide-2{
+  height: 100%;
+}
 
 
 
 
 .title{
-  margin-top: 130px;
+  margin-top: 100px;
   /*margin-left: 40px;*/
   text-align: center;
 }
@@ -68,6 +72,22 @@ font-variant: small-caps !important;
 
 }
 
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+  background: #9e762c;
+  padding: 10px 30px;
+  display: inline-block;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
 
 /*.carousel-control-prev-icon, .carousel-control-next-icon {
     border-radius: 50%;
@@ -190,6 +210,14 @@ border: 2px solid black;
 }
 
 
+.main-text
+{
+    position: absolute;
+    top: 100px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
 
 
 
@@ -225,13 +253,13 @@ border: 2px solid black;
 
 @media screen and (min-width: 601px) {
   .title  {
-    margin-top: 130x;
+    margin-top: 100px;
   }
 }
 
 @media screen and (max-width: 601px) {
   .title  {
-   margin-top: 60px;
+   margin-top: 70px;
   }
 }
 
@@ -240,13 +268,29 @@ border: 2px solid black;
   .title h1 {
     font-size: 80px;
   }
+  .main-text
+{
+    position: absolute;
+    top: 100px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
 }
 
 @media screen and (max-width: 601px) {
   .title h1 {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
   }
+  .main-text
+{
+    position: absolute;
+    top: -35px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -348,6 +392,11 @@ color: #FFFFFF;
   
   }
 
+  .carousel-1{
+    height: 720px;
+    
+    }
+
 }
 
 @media screen and (max-width: 601px) {
@@ -355,7 +404,7 @@ color: #FFFFFF;
   background: #9e762c;
   padding: 10px 30px;
   display: inline-block;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin-bottom: 80px;
 }
 
@@ -363,6 +412,11 @@ color: #FFFFFF;
   height: 256px !important;
   
   }
+
+  .carousel-1{
+    height: 360px !important;
+    
+    }
 
 }
 
@@ -473,6 +527,15 @@ color: #9e762c;
 .carousel-0{
 height: 512px;
 
+}
+
+.carousel-1{
+  height: 720;
+}
+
+.carousel-1 img{
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel-0 img{

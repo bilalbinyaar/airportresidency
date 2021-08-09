@@ -30,7 +30,7 @@
   <div class="sec-1">
 
     <nav style="border-bottom: 1px solid #ffffff33; padding: 30px;"
-      class="navbar navbar-expand-lg navbar-transparant navbar-dark">
+      class="navbar navbar-expand-lg navbar-lightblue navbar-light">
 
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="images/group.png"></a>
@@ -55,7 +55,7 @@
               <a class="nav-link" href="#Brochures">BROCHURE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://wa.me/+923324776787"><i class="fab fa-whatsapp fa-2x"></i></a>
+              <a class="nav-link" href="https://wa.me/+923324776787"><i class="fab fa-whatsapp fa-2x" style="color:rgba(0,0,0,.5)"> </i></a>
             </li>
           </ul>
         </div>
@@ -65,23 +65,68 @@
     </nav>
 
     <div id="Home">
-      <div class="container ">
-
-        <div class="row">
-
-          <div class="col-lg-12 mt-3">
-
-            <div class="title">
-
-              <h1>Airport Residency</h1>
-
-              <p>Never has living been so grand and convenient</p>
-              <p class="bt"><a href="#Book-now"><strong>Book Now</strong></a></p>
-
-            </div>
-
+      <div id="Home-carousel-Indicators" class="carousel slide " data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#Home-carousel-Indicators" data-slide-to="0" class="active"></li>
+          <li data-target="#Home-carousel-Indicators" data-slide-to="1"></li>
+          <li data-target="#Home-carousel-Indicators" data-slide-to="2"></li>
+          <li data-target="#Home-carousel-Indicators" data-slide-to="3"></li>
+          <li data-target="#Home-carousel-Indicators" data-slide-to="4"></li>
+          <li data-target="#Home-carousel-Indicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-1 active">
+            <img class="d-block w-100" src="images/home-1.png" alt="First slide">
+          </div>
+          <div class="carousel-item carousel-1">
+            <img class="d-block w-100" src="images/home-2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item carousel-1">
+            <img class="d-block w-100" src="images/home-3.png" alt="Third slide">
+          </div>
+          <div class="carousel-item carousel-1">
+            <img class="d-block w-100" src="images/home-4.png" alt="Fourth">
+          </div>
+          <div class="carousel-item carousel-1">
+            <img class="d-block w-100" src="images/home-5.png" alt="Fifth">
+          </div>
+          <div class="carousel-item carousel-1">
+            <img class="d-block w-100" src="images/home-6.png" alt="sixth">
           </div>
         </div>
+        <a class="carousel-control-prev" href="#Home-carousel-Indicators" role="button" data-slide="prev">
+          <div class="bar-icon">
+    
+            <i class="fas fa-angle-left"></i>
+    
+          </div>
+        </a>
+        <a class="carousel-control-next" href="#Home-carousel-Indicators" role="button" data-slide="next">
+          <div class="bar-icon">
+    
+            <i class="fas fa-angle-right"></i>
+    
+          </div>
+        </a>
+
+        <div class="main-text hidden-xs">
+          <div class="col-md-12 title">
+              <h1>airport Residency</h1>
+                  <p>Never has living been so grand and convenient</p>
+
+                  <p class="bt"><a href="#"><strong>Book Now</strong></a></p>
+              
+          </div>
+      </div>
+
+      <!-- <div class="title">
+
+        <h1>Airport Residency</h1>
+
+        <p>Never has living been so grand and convenient</p>
+        <p class="bt"><a href="#"><strong>Book Now</strong></a></p>
+
+      </div> -->
 
       </div>
     </div>
@@ -315,12 +360,12 @@
 
                   <div class="col-sm-12 d-flex justify-content-between">
 
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong-1">
                       Launch demo modal
                     </button>
                     
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal fade" id="exampleModalLong-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -423,12 +468,12 @@
                   <div class="col-sm-12 d-flex justify-content-between">
 
                    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong-2">
   Launch demo modal
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalLong-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -529,12 +574,12 @@
                   <div class="col-sm-12 d-flex justify-content-between">
 
                    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong-3">
   Launch demo modal
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalLong-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -623,12 +668,12 @@
                   <div class="col-sm-12 d-flex justify-content-between">
 
                    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong-4">
   Launch demo modal
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalLong-4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -729,12 +774,12 @@
                   <div class="col-sm-12 d-flex justify-content-between">
 
                    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong-5">
   Launch demo modal
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalLong-5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -997,7 +1042,7 @@
               </a>
             </li> -->
             <li class="listpro">
-              <a href="#">
+              <a href="https://www.instagram.com/airport.residency?r=nametag">
                 <span> <i class="fab fa-instagram fa-2x"></i></span>
 
               </a>
