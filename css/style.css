@@ -858,3 +858,13 @@ amenities h1 {
   text-decoration: underline;
   color: white;
 }
+
+.about{
+  position: absolute;
+    content: "";
+    width: 30px !important;
+    height: 6px;
+    background-color: #e44c2a;
+    top: 17px;
+    margin-left: 172px !important
+}
