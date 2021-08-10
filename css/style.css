@@ -184,6 +184,18 @@ padding: 0px !important;
         margin-top: 150px;
 }
 
+.heading h1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 59px;
+  font-variant: small-caps;
+  color: #9e762c;
+   text-align: center;
+      
+}
+
 
 
 .bar-icon{
@@ -589,6 +601,20 @@ font-size: 16px;
 line-height: 28px;
 color: #FFFFFF;
 }
+
+.sec-5 h1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 59px;
+  font-variant: small-caps;
+  
+  padding-bottom: 30px;
+  
+  color: #9e762c;
+  
+  }
 
 
 
