@@ -44,6 +44,7 @@ nav{
   font-weight: 600;
  
 }
+/* .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover */
 
 
 #active_link:after {
@@ -69,24 +70,19 @@ nav{
   transform: translate(-50%, -50%);
 }
 
-button .btn .btn-primary {
-  background: #9e762c !important;
-  padding: 10px 30px;
-  display: inline-block;
-}
 
 
 .title{
   margin-top: 100px;
   /*margin-left: 40px;*/
-  text-align: center;
+  text-align: left;
 }
 
 .title h1{
   font-style: normal;
   font-weight: 600;
   font-size: 80px;
-  line-height: 117px;
+  line-height: 90px;
 /* identical to box height */
 color: #9e762c;
 font-variant: small-caps !important;
@@ -236,11 +232,11 @@ border: 2px solid black;
 }
 
 .carousel-control-prev {
-  left: 15px !important;
+  left: 0px !important;
 }
 
 .carousel-control-next {
-  right: 15px !important;
+  right: 0px !important;
 }
 
 
@@ -253,7 +249,19 @@ border: 2px solid black;
 }
 
 
-
+.item{
+  Position:relative;
+  }
+  .item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+     background: linear-gradient(to right, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0));
+  }
 
 
 
@@ -395,30 +403,32 @@ color: #FFFFFF;
 }
 
 .bt{
-  background: #9e762c;
+  background: transparent;
   padding: 10px 30px;
   display: inline-block;
   margin-top: 15px;
   text-decoration: none;
+  border: 2px solid #9e762c;
 }
 
 .bt a{
-  color: #000;
+  color: #fff;
   text-decoration: none !important;
 }
 
 .bt a:hover{
-  color: #000;
+  color: #fff;
   text-decoration: none !important;
 }
 
 
 @media screen and (min-width: 601px) {
   .bt{
-  background: #9e762c;
+  background: transparent;
   padding: 10px 30px;
   display: inline-block;
   margin-top: 15px;
+  border: 2px solid #9e762c;
 }
 
 .carousel-0{
@@ -427,8 +437,8 @@ color: #FFFFFF;
   }
 
   .carousel-1{
+    
     height: 720px;
-    z-index: -1;
     
     }
 
@@ -436,11 +446,12 @@ color: #FFFFFF;
 
 @media screen and (max-width: 601px) {
   .bt{
-  background: #9e762c;
+  background: transparent;
   padding: 10px 30px;
   display: inline-block;
   /* margin-top: 100px; */
   margin-bottom: 80px;
+  border: 1px solid #9e762c;
 }
 
 .carousel-0{
@@ -452,26 +463,35 @@ color: #FFFFFF;
     height: 360px !important;
     
     }
+    .carousel-control-prev {
+      left: 15px !important;
+    }
+    
+    .carousel-control-next {
+      right: 15px !important;
+    }
 
 }
 
 @media only screen and (min-width: 768px) {
 .bt{
-  background: #9e762c;
+  background: transparent;
   padding: 10px 30px;
   display: inline-block;
   margin-top: 15px;
+  border:  1px solid #9e762c;
 }
 
 }
 
 @media only screen and (max-width: 768px) {
 .bt{
-  background: #9e762c;
+  background: transparent;
   padding: 10px 30px;
   display: inline-block;
  /* /*margin-top: 50px;*/
   margin-bottom: 50px;
+  border:  1px solid #9e762c;
 }
   
 }
@@ -972,3 +992,21 @@ amenities h1 {
   color: white;
 }
 
+.ft{
+  margin-right: 25px;
+
+}
+.bt-l{
+  background: transparent;
+  color: #9e762c;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  border: 2px solid #9e762c;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+}
