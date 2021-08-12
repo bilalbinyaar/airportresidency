@@ -82,7 +82,7 @@ nav{
   font-style: normal;
   font-weight: 600;
   font-size: 80px;
-  line-height: 90px;
+  line-height: 80px;
 /* identical to box height */
 color: #9e762c;
 font-variant: small-caps !important;
@@ -246,6 +246,7 @@ border: 2px solid black;
     top: 100px;
     width: 96.66666666666666%;
     color: #FFF;
+    padding-left: 35px;
 }
 
 
@@ -260,7 +261,7 @@ border: 2px solid black;
     bottom:0;
     left:0;
     right:0;
-     background: linear-gradient(to right, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0));
+     background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0));
   }
 
 
@@ -310,6 +311,12 @@ border: 2px solid black;
   .title h1 {
     font-size: 80px;
   }
+
+  .title p{
+    font-size: 24px;
+    line-height: 29px;  
+  }
+
   .main-text
 {
     position: absolute;
@@ -325,6 +332,12 @@ border: 2px solid black;
     font-size: 40px;
     line-height: 40px;
   }
+
+  .title p{
+    font-size: 20px !important;
+    line-height: 25px !important;  
+  }
+
   .main-text
 {
     position: absolute;
@@ -1008,5 +1021,5 @@ amenities h1 {
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
-line-height: 29px;
+line-height: 29px;ant
 }
