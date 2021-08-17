@@ -855,7 +855,7 @@ footer{
 .amenities .amenity:nth-child(5) { background-image: url(../images/amenity-5.png); }
 .amenities .amenity:nth-child(6) { background-image: url(../images/amenity-11.jpg); }
 .amenities .amenity:nth-child(7) { background-image: url(../images/amenity-8.jpeg); }
-.amenities .amenity:nth-child(8) { background-image: url(../images/amenity-9.jpg); }
+.amenities .amenity:nth-child(8) { background-image: url(../images/amenity-9.jpeg); }
 .amenities .amenity:nth-child(9) { background-image: url(../images/amenity-12.jpeg); }
 
 .amenities .amenity:hover {
@@ -1135,4 +1135,119 @@ width: auto;
 height: 90px;
 margin: 20px;
 object-fit: cover;
+}
+
+
+.location {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  min-height: 800px;
+  background-color: black;
+  background-image: url(../images/img-4.png);
+  background-position: left;
+  background-size: cover;
+}
+
+.location .shade {
+  position: relative;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1) 80%);
+  z-index: 1;
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.location .details {
+  position: relative;
+  grid-row: 1;
+  grid-column: 8 / -2;
+  margin-top: 80px;
+  z-index: 2;
+}
+
+.location .details h1 {
+  color: #9e762c;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  margin-bottom: 48px;
+}
+
+.location .details p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6em;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+.pins {
+  position: relative;
+  z-index: 1;
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+@keyframes bobble {
+  0% { transform: translateY(0) }
+  50% { transform: translateY(-16px) }
+  100% { transform: translateY(0px) }
+}
+
+.pins .pin {
+  position: absolute;
+  animation-name: bobble;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.pins #pin-1 {
+  top: 280px;
+  left: 486px;
+}
+
+.pins .pin-2 {
+  top: 120px;
+  left: 270px;
+  animation-delay: 400ms;
+}
+
+.pins .pin-3 {
+  top: 520px;
+  left: 370px;
+  animation-delay: 800ms;
+}
+
+@media only screen and (max-width: 1080px) {
+  .location {
+    /* height: 100vh; */
+    background-position-x: -180px;
+  }
+
+  .location {
+    background-position-y: 200px;
+    background-position-x: -328px;
+    background-repeat: no-repeat;
+  }
+
+  .location .shade {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1) 64%);
+  }
+  
+  .location .details {
+    position: relative;
+    grid-row: 1;
+    grid-column: 1 / -1;
+    padding: 24px;
+    margin-top: 32px;
+    z-index: 2;
+  }
+
+  .location .details p:last-child {
+    display: none;
+  }
+
+  .pins #pin-1 {
+    left: 310px;
+    top: 480px;
+  }
 }
