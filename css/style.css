@@ -17,7 +17,7 @@ nav{
   position: absolute;
 }
 
-.sec-1{
+/* .sec-1{ */
   /* background:linear-gradient(90deg, rgba(0,0,0,0.64),rgba(0,0,0,0.64)), url("../images/back-1.png");
   height: 45em !important;  */
  
@@ -25,9 +25,7 @@ nav{
   /* background-size: cover;
   background-attachment: fixed;
  */
-
-
-}
+/* } */
 
 #active_link{
   color:  #9e762c!important;
@@ -39,25 +37,33 @@ nav{
   color: rgba(0,0,0,.5);
   font-weight: 600;
 }
-.navbar-light .navbar-nav .nav-link :hover {
+.navbar-light .navbar-nav .nav-link:hover, .fa-whatsapp:hover {
   color:  #9e762c !important;
   font-weight: 600;
  
 }
+
+/* .nav-link:active {
+    content: ""; 
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    background-color: #9e762c;
+    width: 100px;
+    right: 715px; 
+} */
 /* .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover */
 
 
-#active_link:after {
+/* #active_link:after {
     content: "";
     position: absolute;
     bottom: 0px;
     height: 2px;
     background-color: #9e762c;
     width: 100px;
-    right: 550px;
-
-
-}
+    right: 715px;
+} */
 
 .slide-2{
   height: 100%;
@@ -207,9 +213,9 @@ padding: 0px !important;
 
 .bar-icon{
 
-color: #000000;
+color: #fff;
 font-size: 25px;
-background-color:rgba(0, 0, 0, 0);
+background-color:#000;
 padding: 4px;
 border-radius: 50%;
 height: 50px;
@@ -249,7 +255,7 @@ border: 2px solid black;
     padding-left: 35px;
 }
 
-
+/* 
 .item{
   Position:relative;
   }
@@ -262,7 +268,7 @@ border: 2px solid black;
     left:0;
     right:0;
      background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0));
-  }
+  } */
 
 
 
@@ -324,6 +330,24 @@ border: 2px solid black;
     width: 96.66666666666666%;
     color: #FFF;
 }
+carousel-caption p{
+  width: 100%;
+  margin: auto;
+  font-size: 44px;
+  line-height: 42px;
+  font-style: normal;}
+
+  .carousel-caption {
+    bottom: 40% !important;
+    /* margin: auto !important; */
+  }
+
+  .Air-logos img{
+    width: auto;
+    height: 90px;
+    margin: 20px;
+    object-fit: cover;
+    }
 
 }
 
@@ -345,7 +369,25 @@ border: 2px solid black;
     width: 96.66666666666666%;
     color: #FFF;
 }
+  .carousel-caption p{
+    max-width: 87% !important;
+    margin: auto !important;
+    font-size: 26px !important;
+    line-height: 42px !important;
+    font-style: normal;
+  }
 
+  .carousel-caption {
+    bottom: 106px !important;
+    margin: auto !important;
+  }
+
+  .Air-logos img{
+    width: 110px !important;
+    height: 80px !important;
+    margin: 15px !important;
+    object-fit: cover;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -598,7 +640,12 @@ height: 512px;
 }
 
 .carousel-1{
-  height: 720;
+  /* height: 720; */
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .carousel-1 img{
@@ -614,15 +661,10 @@ height: 512px;
 
 .sec-4{
 
-  background:linear-gradient(90deg, rgba(0,0,0,0.0) 30%,rgba(0,0,0,1) 90% ), url("../images/img-4.png");
-
-  height: 700px;
-  width: 1366px;
+  height: auto;
+  width: 100%;
  
 
-
-margin-top: 20px;
-padding-top: 125px;
 }
 
 
@@ -631,7 +673,7 @@ font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 40;
-line-height: 51px;
+line-height: 48px;
 font-variant: small-caps;
 
 color: #9e762c;
@@ -644,7 +686,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 28px;
-color: #FFFFFF;
+color: #454545;
+text-align: left !important;
 }
 
 .sec-5 h1{
@@ -811,8 +854,9 @@ footer{
 .amenities .amenity:nth-child(4) { background-image: url(../images/amenity-4.jpg); }
 .amenities .amenity:nth-child(5) { background-image: url(../images/amenity-5.png); }
 .amenities .amenity:nth-child(6) { background-image: url(../images/amenity-11.jpg); }
-.amenities .amenity:nth-child(7) { background-image: url(../images/amenity-8.jpg); }
+.amenities .amenity:nth-child(7) { background-image: url(../images/amenity-8.jpeg); }
 .amenities .amenity:nth-child(8) { background-image: url(../images/amenity-9.jpg); }
+.amenities .amenity:nth-child(9) { background-image: url(../images/amenity-12.jpeg); }
 
 .amenities .amenity:hover {
     flex: 3;
@@ -1018,8 +1062,77 @@ amenities h1 {
   text-decoration: none;
   border: 2px solid #9e762c;
   font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;ant
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* .carousel-item{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+} */
+
+.carousel-caption{
+  bottom: 250px ;
+
+  /* transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, .8); */
+
+}
+
+
+.carousel-caption p{
+  width: 100%;
+  margin: auto;
+  font-size: 44px;
+  line-height: 42px;
+  font-style: normal;
+  font-weight: 600;
+  /* transform: translateY(-50%); */
+	background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  color: #9e762c;
+font-variant: small-caps !important;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline;
+  padding: 1px 0
+}
+
+
+.modal-dialog{
+  width: 80% !important;
+  height: 80% !important;
+  margin: 20px !important;
+  padding: 0 !important;
+  max-width:none !important;
+}
+
+.modal-content {
+  height: auto !important;
+  min-height: 80% !important;
+  border-radius: 0 !important;
+  background-color: #ececec !important 
+}
+/* @media screen and (max-width: 768px) {   
+  .d-md-block {
+    display: block!important;
+}
+} */
+.neww img{
+width: 60%;
+height: 400px;
+object-fit: cover;}
+
+.Air-logos img{
+width: auto;
+height: 90px;
+margin: 20px;
+object-fit: cover;
 }

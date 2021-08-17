@@ -18,6 +18,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
    
 
 
@@ -49,19 +50,22 @@
               <a class="nav-link" href="#About">ABOUT</a>
             </li>
             <li class="nav-item dropdown">
-              <span class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                APARTMENTS
-              </span>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Animation</a>
-                <a class="dropdown-item" href="#">Web 360</a>
-              </div>
+              <a class="nav-link" href="#Apartments">APARTMENTS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#Apartments">ANIMATION</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#Apartments">WEB360</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Brochures">BROCHURE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://wa.me/+923324776787"><i class="fab fa-whatsapp fa-2x" style="color:rgba(0,0,0,.5)"> </i></a>
+              <a class="nav-link" href="#Book-now">BOOK NOW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://wa.me/+923000894326"><i class="fab fa-whatsapp fa-2x" style="color:rgba(0,0,0,.5)"> </i></a>
             </li>
           </ul>
         </div>
@@ -83,31 +87,37 @@
         <div class="carousel-inner  item">
           <div class="carousel-item carousel-1 active">
             <img class="d-block w-100" src="images/home-1.png" alt="First slide">
+            <div class="carousel-caption d-md-block ">
+              <p class="animated zoomIn" style="animation-delay: 1s">Never has living been so grand and convenient!</p>
+            </div>
           </div>
           <div class="carousel-item carousel-1">
             <img class="d-block w-100" src="images/home-2.png" alt="Second slide">
+            <div class="carousel-caption d-md-block">
+              <p class="animated zoomIn" style="animation-delay: 1s">Pure residential project with world-class amenities</p>
+            </div>
           </div>
           <div class="carousel-item carousel-1">
             <img class="d-block w-100" src="images/home-3.png" alt="Third slide">
+            <div class="carousel-caption d-md-block">
+              <p class="animated zoomIn" style="animation-delay: 1s">Combining innovation, luxury and convenience,</p>
+            </div>
           </div>
           <div class="carousel-item carousel-1">
             <img class="d-block w-100" src="images/home-4.png" alt="Fourth">
+            <div class="carousel-caption d-md-block">
+              <p class="animated zoomIn" style="animation-delay: 1s"> Premium 4 and 5 rooms Apartments</p>
+            </div>
           </div>
           <div class="carousel-item carousel-1">
             <img class="d-block w-100" src="images/home-5.png" alt="Fifth">
-          </div>
-          <div class="carousel-item carousel-1">
-            <img class="d-block w-100" src="images/home-7.png" alt="sixth">
-          </div>
-          <div class="carousel-item carousel-1">
-            <img class="d-block w-100" src="images/home-8.png" alt="seventh">
-          </div>
-          <div class="carousel-item carousel-1">
-            <img class="d-block w-100" src="images/home-9.png" alt="eight">
+            <div class="carousel-caption d-md-block">
+              <p class="animated zoomIn" style="animation-delay: 1s">Live in comfort and style</p>
+            </div>
           </div>
           
         </div>
-        <!-- <a class="carousel-control-prev" href="#Home-carousel-Indicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#Home-carousel-Indicators" role="button" data-slide="prev">
           <div class="bar-icon">
     
             <i class="fas fa-angle-left"></i>
@@ -120,31 +130,19 @@
             <i class="fas fa-angle-right"></i>
     
           </div>
-        </a> -->
+        </a>
 
-        <div class="main-text hidden-xs">
-          <div class="col-md-12 title">
-              <h1>Airport <br> Residency</h1>
-                  <p class="mt-3">Never has living been so grand and convenient</p>
-
-                  <p class="bt mt-5"><a href="#Book-now"><strong>Book Now</strong></a></p>
-              
-          </div>
-      </div>
-
-      <!-- <div class="title">
-
-        <h1>Airport Residency</h1>
-
-        <p>Never has living been so grand and convenient</p>
-        <p class="bt"><a href="#"><strong>Book Now</strong></a></p>
-
-      </div> -->
+       
 
       </div>
     </div>
 
   </div>
+      <!------------------- carousel------------------- -->
+
+
+
+
 
 
   <div id="About">
@@ -165,11 +163,18 @@
               Building upon this unmatched legacy of <br>professionalism, trust and innovation, the JV is proud to
               launch its signature project – Airport Residency.</p>
 
+              <div class="d-flex justify-content-center Air-logos">
+                <img  class="animated zoomIn" style="animation-delay: 1s"; src="images/U-logo.png" alt="">
+                <img  class="animated zoomIn" style="animation-delay: 1.2s"; src="images/z-logo.png" alt="">
+                <img  class="animated zoomIn" style="animation-delay: 1.4s"; src="images/M-logo.png" alt="">
+
+
+              </div>
+    
           </div>
 
+          </div>
 
-
-        </div>
 
       </div>
 
@@ -248,35 +253,26 @@
   </div>
 
 
-  <div class="container-fluid sec-4 mt-5">
+  <div class="container-fluid sec-4 mt-4">
 
     <div class="row">
 
-      <div class="col-sm-7">
-
-
-
-      </div>
-
-      <div class="col-sm-4 sec-4-1">
-
-        <h3>Unique Blend of Serenity & Connectivity</h3>
-
-        <p>Located just off Shahrah-e-Faisal near Jinnah International Airport and nestled in an exclusive serene and safe precinct with abundant open spaces and green belts,
-           Airport Residency shall offer a unique blend of urban connectivity, tranquil atmosphere and high-end lifestyle. 
-
-          At very short distances from Airport Residency, are numerous parks, clubs, hospitals, schools and commercial areas – everything one needs to ensure convenience in a fast-paced urban lifestyle..</p>
-
-
-
-      </div>
-
-      <div class="col-sm-1">
-
-
-
-      </div>
-
+      <div class="col-md-12">
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-6 neww">
+            <img class="d-block w-100" src="images/map.png">
+            
+          </div>
+          <div class="col-md-6 text-center">
+            <h3>Unique Blend of Serenity & Connectivity</h3>
+            <p >Located just off Shahrah-e-Faisal near Jinnah International Airport and nestled in an exclusive serene and safe precinct with abundant open spaces and green belts,
+              Airport Residency shall offer a unique blend of urban connectivity, tranquil atmosphere and high-end lifestyle. 
+    
+             At very short distances from Airport Residency, are numerous parks, clubs, hospitals, schools and commercial areas – everything one needs to ensure convenience in a fast-paced urban lifestyle...</p>
+            
+          </div>
+          </div>
+          </div>
 
 
     </div>
@@ -284,46 +280,50 @@
 
   </div>
 
+
+
+
   <div id="Brochures">
     <div class="container-fluid sec-8">
       <h3 >World Class Amenities</h3>
     <section class="amenities">
       <div class="amenity">
         <div class="shade"></div>
-        <h2></h2>  
+        <h2>GYM</h2>  
       </div>
       <div class="amenity">
         <div class="shade"></div>
-        <h2></h2>
+        <h2>SECURITY</h2>
       </div>
       <div class="amenity">
         <div class="shade"></div>
-        <h2></h2>
+        <h2>SUPER MARKET</h2>
       </div>
       <div class="amenity">
         <div class="shade"></div>
-        <h2></h2>
+        <h2>PLAY AREA</h2>
       </div>
       <div class="amenity">
         <div class="shade"></div>
-        <h2></h2>
+        <h2>CAR PARKING</h2>
       </div>
       <div class="amenity">
         <div class="shade"></div>
-        <h2></h2>
+        <h2>PRAYER HALL</h2>
       </div>
-    
+      <div class="amenity">
+        <div class="shade"></div>
+        <h2>BACKUP GENERATORS</h2>
+      </div>
+      <div class="amenity">
+        <div class="shade"></div>
+        <h2>COMMUNITY CENTER</h2>
+      </div>
+      <div class="amenity">
+        <div class="shade"></div>
+        <h2>ELEVATORS</h2>
+      </div>
 
-      <div class="amenity">
-        <div class="shade"></div>
-        <h2></h2>
-      </div>
-      <div class="amenity">
-        <div class="shade"></div>
-        <h2></h2>
-      </div>
-
-      <!-- <div class="full-shade"><h1>WORLD CLASS AMENITIES</h1></div> -->
     </section>
     </div>
   </div>
@@ -400,7 +400,7 @@
                   <div class="col-sm-12 d-flex justify-content-between">
 
                     <button type="button" class="bt-l" data-toggle="modal" data-target="#exampleModalLong-1">
-                      Layout Plans
+                      Layout with Dimensions
                     </button>
                     
                     <!-- Modal -->
@@ -510,7 +510,7 @@
 
                    <!-- Button trigger modal -->
                    <button type="button" class="bt-l" data-toggle="modal" data-target="#exampleModalLong-2">
-                    Layout Plans
+                    Layout with Dimensions
                   </button>
                  
 
@@ -764,7 +764,7 @@
               </a>
             </li> -->
             <li class="listpro">
-              <a href="#">
+              <a href="https://wa.me/+923000894326">
                 <span><i class="fab fa-whatsapp fa-2x"></i></span>
               </a>
             </li>
