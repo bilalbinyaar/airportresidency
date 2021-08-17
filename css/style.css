@@ -386,7 +386,7 @@ carousel-caption p{
     width: 110px !important;
     height: 80px !important;
     margin: 15px !important;
-    object-fit: cover;
+   
     }
 }
 
@@ -1242,9 +1242,7 @@ object-fit: cover;
     z-index: 2;
   }
 
-  .location .details p:last-child {
-    display: none;
-  }
+ 
 
   .pins #pin-1 {
     left: 310px;
