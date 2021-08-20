@@ -390,6 +390,7 @@ carousel-caption p{
     width: 110px !important;
     height: 80px !important;
     margin: 15px !important;
+    object-fit: contain !important;
    
     }
 }
