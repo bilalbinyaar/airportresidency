@@ -43,6 +43,10 @@ nav{
  
 }
 
+.listpro .fa-whatsapp:hover {
+color: #FFF !important;
+}
+
 /* .nav-link:active {
     content: ""; 
     position: absolute;
@@ -1242,10 +1246,31 @@ object-fit: cover;
     z-index: 2;
   }
 
- 
 
-  .pins #pin-1 {
-    left: 310px;
-    top: 480px;
+}
+
+#more{
+  display: block;
+}
+
+@media screen and (min-width: 601px) {
+  #more{
+    display: block;
+  }
+  #myBtn{
+    display: none;
   }
 }
+
+@media screen and (max-width: 601px) {
+  #more{
+    display: none;
+  }
+}
+
+#myBtn{
+  color: #9e762c;
+  background-color: transparent;
+  border: none;
+}
+

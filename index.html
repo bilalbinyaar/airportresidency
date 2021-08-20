@@ -34,7 +34,7 @@
       class="navbar navbar-expand-lg navbar-lightblue navbar-light">
 
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="images/group.png"></a>
+        <a class="navbar-brand" href="#"><img src="images/Airport.png"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -281,19 +281,16 @@
   </div> -->
 
 
-  <section class="location">
+  <section class="location sec-4">
     <div class="details">
-      <h1>Unique Blend of Serenity & Connectivity</h1>
+      <h3>Unique Blend of Serenity & Connectivity</h3>
       <p>Located just off Shahrah-e-Faisal near Jinnah International Airport and nestled in an exclusive serene and 
-        safe precinct with abundant open spaces and green belts. Airport Residency shall offer a unique blend of urban connectivity,
-         tranquil atmosphere and high-end lifestyle. 
-        At very short distances from Airport Residency, are numerous parks, clubs, hospitals, schools and commercial areas – everything one needs to ensure convenience in a fast-paced urban lifestyle...
+        safe precinct with abundant open spaces and green belts..<span id="more"> Airport Residency shall offer a unique blend of urban connectivity,
+         tranquil atmosphere and high-end lifestyle. At very short distances from Airport Residency, are numerous parks, clubs, hospitals, schools and commercial areas – everything one needs to 
+        ensure convenience in a fast-paced urban lifestyle...</span>
+        <button onclick="myFunction()" id="myBtn">Read More</button>
       </p>
-      <!-- <p>
-        Each apartment is decorated with one-of-a-kind glass balconies which catch the eyes of all who gaze 
-        upon its splendid form. Every floor is fitted with modern residencies with an array of 3, 4 and 5 
-        room apartments to choose from. While for those with an eye for business an array of spacious and 
-        refined showrooms line the base, perfectly completing the ultimate lifestyle solution.</p> -->
+   
     </div>
     <div class="shade"></div>
    
@@ -757,7 +754,7 @@
 
                 <li class="listpro">
                   <a href="https://wa.me/+923000894326">
-                  <span><i class="fab fa-whatsapp fa-2x" style="hover: color: #fff";></i></span>
+                  <span><i class="fab fa-whatsapp fa-2x"></i></span>
                   </a>
                </li>
 
@@ -784,10 +781,29 @@
 
 
   </footer>
+  
+  <script>
+    function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+</script>
 
 
 
 </body>
+
 
 <!-- <script>
   $(window).scroll(function () {
