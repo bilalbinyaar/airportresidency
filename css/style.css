@@ -1275,3 +1275,16 @@ object-fit: cover;
   border: none;
 }
 
+.int h3{
+text-align: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 59px;
+color: #9e762c; 
+font-variant: small-caps !important;
+margin-bottom: 20px;
+
+}
+
