@@ -1126,10 +1126,27 @@ color: #FFF;
   font-style: normal;
   font-weight: 600;
   /* transform: translateY(-50%); */
-	background-color: rgba(0, 0, 0, 0.7);
+	/* background-color: rgb(199 170 140 / 70%); */
+  /* rgb(199 170 140 / 70%) */
   padding: 20px;
-  color: #9e762c;
+  color: #ffffff;
 font-variant: small-caps !important;
+}
+
+.car-1 p{
+  background-color: rgb(199 170 140 / 70%);
+}
+.car-2 p{
+  background-color: rgb(140 121 125 / 70%);
+}
+.car-3 p{
+  background-color: rgb(140 121 125 / 70%);
+}
+.car-4 p{
+  background-color: rgb(140 121 125 / 70%);
+}
+.car-5 p{
+  background-color: rgb(199 170 140 / 70%);
 }
 
 .bg {
