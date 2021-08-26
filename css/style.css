@@ -1194,7 +1194,7 @@ object-fit: cover;
   grid-template-columns: repeat(12, 1fr);
   min-height: 800px;
   background-color: black;
-  background-image: url(../images/img-4.png);
+  background-image: url(../images/map-1.png);
   background-position: left;
   background-size: cover;
 }
