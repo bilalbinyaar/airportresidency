@@ -314,6 +314,10 @@ border: 2px solid black;
   .title  {
    margin-top: 70px;
   }
+  .modal-body img{
+    height: 250px !important;
+   
+  }
 }
 
 
@@ -1158,17 +1162,22 @@ font-variant: small-caps !important;
 
 .modal-dialog{
   width: 80% !important;
-  height: 80% !important;
+  min-height: 80% !important;
   margin: 20px !important;
   padding: 0 !important;
   max-width:none !important;
 }
 
 .modal-content {
-  height: auto !important;
+  /* height: auto !important; */
   min-height: 80% !important;
   border-radius: 0 !important;
   background-color: #ececec !important 
+}
+
+.modal-body img{
+  height: 500px;
+ 
 }
 /* @media screen and (max-width: 768px) {   
   .d-md-block {
