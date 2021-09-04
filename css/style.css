@@ -346,7 +346,7 @@ carousel-caption p{
   font-style: normal;}
 
   .carousel-caption {
-    bottom: 40% !important;
+    bottom: 44% !important;
     /* margin: auto !important; */
   }
 
@@ -543,7 +543,7 @@ color: #FFFFFF;
   
   }
   .carousel-1 img {
-    object-fit: cover;
+    object-fit: cover !important;
   }
 
   .carousel-1{
