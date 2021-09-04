@@ -542,6 +542,9 @@ color: #FFFFFF;
   height: 256px !important;
   
   }
+  .carousel-1 img {
+    object-fit: cover;
+  }
 
   .carousel-1{
     height: 360px !important;
