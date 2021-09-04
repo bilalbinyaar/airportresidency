@@ -502,7 +502,7 @@ color: #FFFFFF;
 
   .carousel-1{
     
-    /* height: 720px !important; */
+    height: 720px !important;
     
     }
 
@@ -1348,3 +1348,11 @@ margin-bottom: 20px;
 .navbar-brand img{
   height: 80px;
 }
+
+@media screen and (min-width: 1320px){
+  {
+    .carousel-1 img{
+      height: 920px;
+    }
+  }
+} 
