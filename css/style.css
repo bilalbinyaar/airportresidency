@@ -682,7 +682,7 @@ height: 512px;
 
 .carousel-1 img{
   height: 100%;
-  object-fit: cover !important;
+  object-fit: fill;
 }
 
 .carousel-0 img{
@@ -1348,11 +1348,3 @@ margin-bottom: 20px;
 .navbar-brand img{
   height: 80px;
 }
-
-@media screen and (min-width: 1320px){
-  .carousel-1 {
-    height: 1000px;
-    object-fit: cover !important;
-
-  }
-} 
