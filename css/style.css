@@ -682,7 +682,7 @@ height: 512px;
 
 .carousel-1 img{
   height: 100%;
-  object-fit: cover;
+  object-fit: cover !important;
 }
 
 .carousel-0 img{
@@ -1352,7 +1352,7 @@ margin-bottom: 20px;
 @media screen and (min-width: 1320px){
   .carousel-1 {
     height: 1000px;
-    object-fit: cover;
+    object-fit: cover !important;
 
   }
 } 
