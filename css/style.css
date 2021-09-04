@@ -674,6 +674,7 @@ height: 512px;
 .carousel-1{
   /* height: 720; */
   height: 100%;
+  object-fit: cover;
   /* min-height: 300px; */
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -682,7 +683,6 @@ height: 512px;
 
 .carousel-1 img{
   height: 100%;
-  object-fit: full;
 }
 
 .carousel-0 img{
