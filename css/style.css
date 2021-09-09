@@ -140,7 +140,17 @@ font-variant: small-caps !important;
   color: blue;
 }
 
+.carousel-control-next, .carousel-control-prev {
+  width: 9% !important;
 
+}
+
+@media screen and (max-width: 601px){
+  .carousel-control-next, .carousel-control-prev {
+    width: 15% !important;
+  
+  }
+}
 /*===================social-link========================*/
 
 
@@ -519,7 +529,7 @@ color: #FFFFFF;
 }
 
  .bt-l{
-   margin-left: 30px;
+   /* margin-left: 30px; */
    font-size: 18px !important;
    line-height: 21px;
    padding: 10px 10px !important;
@@ -1344,3 +1354,5 @@ margin-bottom: 20px;
 .navbar-brand img{
   height: 80px;
 }
+
+
