@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="6.1.6" apprev="17950">
+  <panorama id="node1">
+    <input width="1920" height="1920" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0">
+      <level width="1920" height="1920" preload="0" predecode="0"/>
+      <level width="960" height="960" preload="0" predecode="0"/>
+      <level width="480" height="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovfisheye="360" tilt="90" pan="360" fovstereographic="270" scaletofit="1" fov="120"/>
+    </view>
+    <userdata title="" latitude="" datetime="" heading="0" description="" copyright="" comment="" longitude="" nodeid="node1" tags="AIR_2Bed" customnodeid="" source="" info="" author=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" height="20" background="1" enabled="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" bordercolor="0x000000" textalpha="1" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff" mode="0"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" zoomin="0" zoomspeed="2" enabled="1" blendtime="1" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" contextfullscreen="1" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" contextprojections="0" lockedkeyboard="0" hideabout="0" simulatemass="1" invertwheel="0"/>
+  </panorama>
+  <masternode>
+    <userdata title="" latitude="" datetime="" heading="0" description="" copyright="" comment="" longitude="" nodeid="master" tags="" customnodeid="" source="" info="" author=""/>
+  </masternode>
+</tour>
